@@ -12,12 +12,12 @@ html body {
   width: 100%;
   height: 100%; }
 
+/*head-nav*/
 header {
   width: 100%;
   height: 52px;
   background: black; }
   header a {
-    text-direction: none;
     color: white;
     font-size: 12px;
     line-height: 52px;
@@ -35,6 +35,7 @@ header {
     header .header-two a {
       margin-right: 20px; }
 
+/*logo-banner*/
 .banner {
   width: 100%;
   height: 80px; }
@@ -50,12 +51,14 @@ header {
     .banner .seach input {
       border: none;
       float: left;
-      width: 130px; }
+      width: 130px;
+      height: 39px; }
     .banner .seach i {
       float: left;
       font-size: 20px;
       line-height: 39px; }
 
+/*Rotation chart*/
 .rot {
   height: 542px;
   padding: 0 20px;
@@ -91,7 +94,7 @@ header {
       position: absolute;
       font-size: 20px;
       width: 30px;
-      height: 60px;
+      height: 30px;
       text-align: center;
       cursor: pointer; }
     .rot #box #left {
@@ -101,13 +104,14 @@ header {
       right: 0;
       top: 50%; }
 
+/*section-one*/
 .section-one {
-  height: 723px;
+  height: 703px;
   padding: 0 20px;
   margin-top: 38px; }
   .section-one .one {
     width: 410px;
-    height: 723px;
+    height: 703px;
     float: left;
     margin-right: 39px; }
     .section-one .one .span-one {
@@ -139,14 +143,192 @@ header {
       border: 1px solid #e0e0e0;
       margin-top: 38px;
       width: 410px; }
+    .section-one .one .one-bottom {
+      width: 410px;
+      height: 57px; }
+      .section-one .one .one-bottom .tit {
+        float: left;
+        font-size: 12px;
+        font-weight: 100;
+        line-height: 57px; }
+      .section-one .one .one-bottom #La {
+        color: black;
+        line-height: 20px; }
+        .section-one .one .one-bottom #La h4 {
+          font-weight: 100; }
+      .section-one .one .one-bottom .btn {
+        float: right;
+        background: black;
+        width: 66px;
+        height: 32px;
+        border: none;
+        color: white;
+        text-align: center;
+        font-size: 12px;
+        line-height: 32px;
+        margin-top: 20px; }
   .section-one .two {
     width: 410px;
     float: left;
     margin-right: 39px; }
     .section-one .two img {
       width: 410px; }
+    .section-one .two .p1 {
+      width: 410px;
+      color: black; }
+      .section-one .two .p1 a {
+        color: black;
+        font-size: 12px;
+        display: block;
+        line-height: 24px;
+        margin-top: 16px; }
+    .section-one .two .push-title {
+      width: 410px;
+      color: black;
+      font-size: 18px;
+      line-height: 28px; }
   .section-one .three {
     width: 410px;
     float: left; }
     .section-one .three img {
       width: 410px; }
+    .section-one .three .p1 {
+      width: 410px;
+      color: black; }
+      .section-one .three .p1 a {
+        color: black;
+        font-size: 12px;
+        display: block;
+        line-height: 24px;
+        margin-top: 16px; }
+    .section-one .three .push-title {
+      width: 410px;
+      color: black;
+      font-size: 18px;
+      line-height: 28px; }
+
+/*section-two*/
+.second {
+  margin-top: 0; }
+
+/*section-three*/
+.third {
+  margin-top: 0;
+  height: 300px;
+  padding-bottom: 80px;
+  border-bottom: 1px solid #e0e0e0; }
+  .third .one-first {
+    height: 272px; }
+    .third .one-first .fone {
+      height: 340px; }
+
+/*section-forth*/
+.forth {
+  margin-top: 40px;
+  border-bottom: none;
+  height: 250px; }
+
+/*footer*/
+footer {
+  width: 100%;
+  background: #f6f6f6; }
+  footer .foot {
+    padding: 30px 224px; }
+    footer .foot .f-left {
+      width: 30%;
+      float: left;
+      padding-bottom: 20px; }
+      footer .foot .f-left a {
+        display: block;
+        line-height: 60px;
+        color: black; }
+      footer .foot .f-left .LinkA .LinkC {
+        font-size: 14px; }
+      footer .foot .f-left .LinkB {
+        font-size: 12px; }
+      footer .foot .f-left .country {
+        width: 271px;
+        height: 38px;
+        border: 1px solid #e0e0e0;
+        background: white; }
+        footer .foot .f-left .country .icon-suo2 {
+          display: inline-block;
+          padding-left: 15px; }
+        footer .foot .f-left .country input {
+          width: 200px;
+          height: 38px;
+          border: none; }
+        footer .foot .f-left .country span {
+          transform: rotate(90deg); }
+      footer .foot .f-left .nav {
+        margin-top: 51px;
+        color: black;
+        font-size: 12px;
+        line-height: 16px; }
+        footer .foot .f-left .nav a {
+          display: block;
+          line-height: 16px;
+          color: black;
+          font-size: 12px; }
+        footer .foot .f-left .nav img {
+          width: 13px;
+          height: 11px; }
+    footer .foot .f-middle {
+      width: 30%;
+      float: left;
+      margin-top: 68px;
+      padding-left: 26px;
+      box-sizing: border-box; }
+      footer .foot .f-middle a {
+        display: block;
+        line-height: 36px;
+        font-size: 12px;
+        color: black; }
+    footer .foot .f-right {
+      width: 30%;
+      float: left;
+      font-size: 12px;
+      line-height: 18px; }
+      footer .foot .f-right .ser {
+        display: block;
+        line-height: 60px;
+        font-size: 14px;
+        color: black; }
+      footer .foot .f-right p {
+        margin-top: 20px; }
+      footer .foot .f-right .emil {
+        margin-top: 18px;
+        width: 200px;
+        height: 38px;
+        border: 1px solid #e0e0e0;
+        float: left;
+        background: white; }
+        footer .foot .f-right .emil .icon-youxiang1 {
+          display: inline-block;
+          padding-left: 15px;
+          font-size: 18px; }
+        footer .foot .f-right .emil #tit {
+          width: 160px;
+          height: 38px;
+          border: none; }
+      footer .foot .f-right #btn {
+        width: 66px;
+        height: 40px;
+        float: left;
+        margin-top: 18px;
+        background: #9a9a9a;
+        color: white;
+        border: none; }
+      footer .foot .f-right span {
+        margin-top: 37px;
+        line-height: 54px;
+        font-size: 16px; }
+      footer .foot .f-right b {
+        width: 38px;
+        height: 38px;
+        font-weight: 100;
+        border-radius: 50%;
+        display: block;
+        border: 2px solid #e4e4e4;
+        text-align: center;
+        line-height: 38px; }

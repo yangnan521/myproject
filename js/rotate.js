@@ -16,12 +16,14 @@ function autoPlay(){
 		}
 
 		let $img=$("#box img");
-		$img.eq(outOrd).animate({"opacity":0},2000);
+		$img.eq(outOrd).animate({"opacity":0},1500);
 
-		$img.eq(ord).animate({"opacity":1},2000);
+		$img.eq(ord).animate({"opacity":1},1500);
 
-		$("#box li").eq(ord).css({"display":"block"}).siblings().css({"display":"none"});
-	},2000);
+		$("#box li").eq(outOrd).css({"display":"none"});
+		$("#box li").eq(ord).css({"display":"block"});
+		
+	},5000);
 
 	
 }
@@ -41,11 +43,14 @@ function goImg(transOrd){
 	}
 
 	let $img=$("#box img");
-	$img.eq(outOrd).animate({"opacity":0},2000);
+	$img.eq(outOrd).animate({"opacity":0},1500);
 
 	$img.eq(ord).animate({"opacity":1},2000);
 
-	$("#box li").eq(ord).css({"display":"block"}).siblings().css({"display":"none"});
+	$("#box li").eq(outOrd).css({"display":"none"});
+	$("#box li").eq(ord).css({"display":"block"});
+		
+
 }
 
   function initEvent(){
@@ -57,7 +62,7 @@ function goImg(transOrd){
   		autoPlay();
   	});
   	$("#box li").click(function(){
-  		goImg($("#box li").index(this));
+  		goImg($(this).index());
   	});
 
   	$("#left").click(function(){
