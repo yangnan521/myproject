@@ -324,25 +324,27 @@ header{
 footer{
 	width:100%;
 	background:#f6f6f6;
+	overflow:hidden;
 	.foot{
-	padding:30px 224px;
-
+		padding:30px 224px;
+		
 		.f-left{
 			width:30%;
 			float:left;
+			margin-top:20px;
 			padding-bottom:20px;
-			a{
-			display:block;
-			line-height:60px;
-			color:black;
+			font-size:14px;
+			line-height:40px;
 
-			}
-
-			.LinkA .LinkC{
-				font-size:14px;
-			}
+			
 			.LinkB{
 				font-size:12px;
+				display:block;
+				line-height:60px;
+				color:black;
+				&:hover{
+				 text-decoration: underline;
+				}
 			}
 
 			.country{
@@ -350,13 +352,14 @@ footer{
 				height:38px;
 				border:1px solid #e0e0e0;
 				background:white;
+				margin-top: 30px;
 				.icon-suo2{
 					display:inline-block;
 					padding-left:15px;
 				}
 				input{
 					width:200px;
-					height:38px;
+					height:34px;
 					border:none;
 				}
 				span{
@@ -375,6 +378,7 @@ footer{
 					line-height:16px;
 					color:black;
 					font-size:12px;
+					
 				}
 				img{
 				width:13px;
@@ -397,6 +401,9 @@ footer{
 			line-height:36px;
 			font-size:12px;
 			color:black;
+				&:hover{
+				 text-decoration: underline;
+				}
 
 			}
 		}
@@ -407,10 +414,10 @@ footer{
 			font-size:12px;
 			line-height:18px;
 			.ser{
-			display:block;
-			line-height:60px;
-			font-size:14px;
-			color:black;
+				display:block;
+				line-height:40px;
+				font-size:14px;
+				color:black;
 
 			}
 			p{
